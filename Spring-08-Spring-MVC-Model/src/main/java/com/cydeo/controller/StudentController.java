@@ -38,7 +38,7 @@ public class StudentController {
 
 
 
-        return "student/welcome"; //this is timeleaf template, that's why we don't need to put "student/welcome.html"
+        return "student/welcome";
     }
 
 

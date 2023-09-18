@@ -13,7 +13,7 @@ public class ConfigAny {
 
 
     @Bean
-    Integer number() {
+    Integer number(){
         return 100;
     }
 }

@@ -8,25 +8,28 @@ import org.springframework.context.annotation.Primary;
 public class ConfigApp {
 
     @Bean
-    FullTimeMentor fullTimeMentor() {
+    FullTimeMentor fullTimeMentor(){
 
         return new FullTimeMentor();
     }
 
-    //    @Bean(name = "p1")
+//    @Bean(name = "p1")
     @Bean
     @Primary
-    PartTimeMentor partTimeMentor() {
+    PartTimeMentor partTimeMentor(){
 
         return new PartTimeMentor();
     }
 
-    //    @Bean(name = "p2")
+//    @Bean(name = "p2")
     @Bean
-    PartTimeMentor partTimeMentor2() {
+    PartTimeMentor partTimeMentor2(){
 
         return new PartTimeMentor();
     }
+
+
+
 
 
 }
